@@ -1,35 +1,34 @@
 import java.util.Scanner;
 
-public class DaoNguoc {
+public class FIndMax {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int size;
         int[] array;
+        int max = 0;
+        Scanner scanner = new Scanner(System.in);
         do {
             System.out.print("Enter a size : ");
             size = scanner.nextInt();
             if (size > 20) {
-                System.out.println("Size < 20 !");
+                System.out.println("Size < 20!");
             }
         } while (size > 20);
-
         array = new int[size];
         for (int i = 0; i < array.length; i++) {
             System.out.print("Enter Element " + (i + 1) + " : ");
             array[i] = scanner.nextInt();
         }
-        System.out.printf("%-20s%s", "Element in array: ", "");
+        System.out.println("Element in Array : ");
         for (int k : array) {
             System.out.print(k + "\t");
         }
-        for (int i = 0; i < array.length/2; i++) {
-            int temp = array[i];
-            array[i] = array[array.length - 1 - i];
-            array[array.length - 1 - i] = temp;
-        }
-        System.out.printf("\n%-20s%s", "Reverse array: ", "");
         for (int j : array) {
-            System.out.print(j + "\t");
+            max = array[0];
+            if (j > max) {
+                max = j;
+            }
         }
+
+        System.out.println("\nElement Max in Array : " + max);
     }
 }
