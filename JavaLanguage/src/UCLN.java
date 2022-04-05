@@ -9,12 +9,11 @@ public class UCLN {
         int b = scanner.nextInt();
         a = Math.abs(a);
         b = Math.abs(b);
-        int ucln = 0;
-        int c  = a < b ? b : a;
+        int ucln = 1;
         if(a == 0 || b == 0){
             System.out.println("No greatest common factor");
         } else {
-            for(int i = 1 ; i <= c; i++){
+            for(int i = 1 ; i <= a && i <= b ; i++){
                 if(a % i == 0 && b % i == 0){
                     ucln = i;
                 }
