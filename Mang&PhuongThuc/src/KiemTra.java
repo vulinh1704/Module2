@@ -51,12 +51,14 @@ public class KiemTra {
         }
 
         int[] d = new int[array.length + 1];
+        System.out.print("Nhap vi tri them : ");
+        int e = scanner.nextInt();
         for (int i = 0; i < d.length; i++) {
-            if (i < c) {
+            if (i < e) {
                 d[i] = array[i];
             }
-            d[c] = a;
-            if (i > c) {
+            d[e] = a;
+            if (i > e) {
                 d[i] = array[i - 1];
             }
         }
