@@ -39,7 +39,7 @@ public class KiemTra {
             }
         }
         for (int i = 0; i < b.length; i++) {
-            if (c < i) {
+            if (c > i) {
                 b[i] = array[i];
             } else {
                 b[i] = array[i + 1];
@@ -51,7 +51,7 @@ public class KiemTra {
         }
 
         int[] d = new int[array.length + 1];
-        System.out.print("Nhap vi tri them : ");
+        System.out.print("\nNhap vi tri them : ");
         int e = scanner.nextInt();
         for (int i = 0; i < d.length; i++) {
             if (i < e) {
