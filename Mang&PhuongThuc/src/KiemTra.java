@@ -46,8 +46,8 @@ public class KiemTra {
             }
         }
         System.out.println("\nArray new : ");
-        for (int i = 0; i < b.length; i++) {
-            System.out.print(b[i] + " ");
+        for (int j : b) {
+            System.out.print(j + " ");
         }
 
         int[] d = new int[array.length + 1];
@@ -63,8 +63,8 @@ public class KiemTra {
             }
         }
         System.out.println("\nArray sau add : ");
-        for (int i = 0; i < d.length; i++) {
-            System.out.print(d[i] + " ");
+        for (int j : d) {
+            System.out.print(j + " ");
         }
 
     }
