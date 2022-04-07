@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" filepath="$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" />
       <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mang&amp;PhuongThuc/Mang&amp;PhuongThuc.iml" filepath="$PROJECT_DIR$/Mang&amp;PhuongThuc/Mang&amp;PhuongThuc.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modul2.iml" filepath="$PROJECT_DIR$/Modul2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classObject/classObject.iml" filepath="$PROJECT_DIR$/classObject/classObject.iml" />
     </modules>
   </component>
 </project>
