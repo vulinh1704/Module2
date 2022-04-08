@@ -1,4 +1,4 @@
-package acessmodifier;
+package staticmethod;
 
 public class TestStaticMethod {
     public static void main(String args[]) {

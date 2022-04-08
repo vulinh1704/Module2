@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" filepath="$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeThua/KeThua.iml" filepath="$PROJECT_DIR$/KeThua/KeThua.iml" />
       <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mang&amp;PhuongThuc/Mang&amp;PhuongThuc.iml" filepath="$PROJECT_DIR$/Mang&amp;PhuongThuc/Mang&amp;PhuongThuc.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modul2.iml" filepath="$PROJECT_DIR$/Modul2.iml" />

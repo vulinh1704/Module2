@@ -1,5 +1,7 @@
 package staticmember;
 
+import java.util.Objects;
+
 public class Animal {
     protected String name;
     private int age;
@@ -59,6 +61,6 @@ public class Animal {
         }
 
         Animal other = (Animal) obj;
-        return this.name.equals(other.name) && this.age == other.getAge();
+        return Objects.equals(this.name ,other.name) && this.age == other.getAge();
     }
 }

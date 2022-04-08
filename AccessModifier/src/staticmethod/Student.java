@@ -1,4 +1,4 @@
-package acessmodifier;
+package staticmethod;
 
 public class Student {
     private final int rollno;
