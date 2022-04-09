@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" filepath="$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" filepath="$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeThua/KeThua.iml" filepath="$PROJECT_DIR$/KeThua/KeThua.iml" />
