@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" filepath="$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" filepath="$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" filepath="$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeThua/KeThua.iml" filepath="$PROJECT_DIR$/KeThua/KeThua.iml" />
       <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" />

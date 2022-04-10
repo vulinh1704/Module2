@@ -30,7 +30,7 @@ public class Run {
                 ((Square) a).howToColor();
             }
 
-        }
+         }
 
     }
 }
