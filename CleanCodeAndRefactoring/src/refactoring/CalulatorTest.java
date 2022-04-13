@@ -19,7 +19,7 @@ class CalculatorTest {
         assertEquals(expected, result);
     }
 
-    
+
     @Test
     @DisplayName("Testing subtraction")
     void testCalculateSub() {
