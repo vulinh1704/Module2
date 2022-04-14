@@ -16,7 +16,8 @@ public class Test {
         ql.them(pt1);
 //        ql.xoa("fe");
         ql.sua("fe" , pt2);
-        ql.print();
+//        ql.print();
+        ql.xoa("fe12323");
         ql.print();
     }
 }

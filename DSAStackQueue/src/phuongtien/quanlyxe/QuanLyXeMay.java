@@ -20,11 +20,13 @@ public class QuanLyXeMay implements QuanLyXe<XeMay>{
 
     @Override
     public void xoa(String name) {
+        XeMay[] danhSach2 = new XeMay[2];
         for (int i = timKiem(name); i < danhSach.length; i++) {
             danhSach[i] = danhSach[i+1];
         }
         danhSach[danhSach.length - 1] = null;
-        danhSach.
+        System.arraycopy(danhSach , 0 ,danhSach2, 0 , 2);
+        danhSach = danhSach2;
     }
 
     @Override
