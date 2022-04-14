@@ -1,17 +1,17 @@
-package phuongtien.cacloaiphuongtien;
+package phuongtien;
 
-public abstract class PhuongTien implements Comparable<PhuongTien>{
+public abstract class PhuongTien {
     private String hang;
-    private String mau;
+    private String color;
     private String ten;
     private int gia;
 
     public PhuongTien() {
     }
 
-    public PhuongTien(String hang, String mau, String ten, int gia) {
+    public PhuongTien(String hang, String color, String ten, int gia) {
         this.hang = hang;
-        this.mau = mau;
+        this.color = color;
         this.ten = ten;
         this.gia = gia;
     }
@@ -24,12 +24,12 @@ public abstract class PhuongTien implements Comparable<PhuongTien>{
         this.hang = hang;
     }
 
-    public String getMau() {
-        return mau;
+    public String getColor() {
+        return color;
     }
 
-    public void setMau(String mau) {
-        this.mau = mau;
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getTen() {
@@ -47,5 +47,4 @@ public abstract class PhuongTien implements Comparable<PhuongTien>{
     public void setGia(int gia) {
         this.gia = gia;
     }
-
 }

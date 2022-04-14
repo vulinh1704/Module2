@@ -1,6 +1,6 @@
-package phuongtien.quanlyxe;
+package cacloaiinterface;
 
-public interface QuanLyXe<T> {
+public interface QuanLyPhuongTien<T> {
     void them(T t);
 
     void sua(String name, T t);
