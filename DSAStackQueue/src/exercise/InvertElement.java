@@ -4,7 +4,7 @@ package exercise;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class invertElement {
+public class InvertElement {
     public static void main(String[] args) {
         Stack<Integer> number = new Stack<>();
         int n = 0;

@@ -1,4 +1,4 @@
-package test;
+package cacloaiinterface.test;
 
 import menu.XuLyMenu;
 import menu.ThongTinMenu;
