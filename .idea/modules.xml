@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" filepath="$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSAStackQueue/DSAStackQueue.iml" filepath="$PROJECT_DIR$/DSAStackQueue/DSAStackQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCollectionFramework/JavaCollectionFramework.iml" filepath="$PROJECT_DIR$/JavaCollectionFramework/JavaCollectionFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" filepath="$PROJECT_DIR$/JavaLanguage/JavaLanguage.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeThua/KeThua.iml" filepath="$PROJECT_DIR$/KeThua/KeThua.iml" />
       <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" />
