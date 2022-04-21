@@ -21,7 +21,7 @@ public class Main1 {
         }
 
         AgeComparator ageComparator = new AgeComparator();
-        lists.sort(ageComparator);
+        Collections.sort(lists , ageComparator);
         System.out.println("So sanh theo tuoi : ");
         for (Student st : lists) {
             System.out.println(st);
