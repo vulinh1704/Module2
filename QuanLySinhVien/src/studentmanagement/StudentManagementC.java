@@ -1,7 +1,6 @@
 package studentmanagement;
 
-import sudent.StudentB;
-import sudent.StudentC;
+import student.StudentC;
 
 import java.util.ArrayList;
 

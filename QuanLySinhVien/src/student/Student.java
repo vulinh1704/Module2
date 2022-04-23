@@ -1,4 +1,4 @@
-package sudent;
+package student;
 
 public class Student {
     private String id;

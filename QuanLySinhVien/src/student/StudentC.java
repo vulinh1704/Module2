@@ -1,4 +1,4 @@
-package sudent;
+package student;
 
 public class StudentC extends Student {
     private static final String LITERATURE = "Literature";

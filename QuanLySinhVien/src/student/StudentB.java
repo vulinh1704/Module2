@@ -1,4 +1,4 @@
-package sudent;
+package student;
 
 public class StudentB extends Student {
     private static final String MATH = "Math";

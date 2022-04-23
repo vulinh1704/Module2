@@ -1,6 +1,7 @@
 package studentmanagement;
 
-import sudent.StudentA;
+import student.Student;
+import student.StudentA;
 
 import java.util.ArrayList;
 
@@ -43,7 +44,7 @@ public class StudentManagementA implements StudentManagement<StudentA> {
 
     @Override
     public void display() {
-        for (StudentA e: list) {
+        for (StudentA e : list) {
             System.out.println(e);
         }
         System.out.println("--------------------");
