@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" filepath="$PROJECT_DIR$/AbstractClassAndInterface/AbstractClassAndInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutomatedTestingTDD/AutomatedTestingTDD.iml" filepath="$PROJECT_DIR$/AutomatedTestingTDD/AutomatedTestingTDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryFileAndSerialization/BinaryFileAndSerialization.iml" filepath="$PROJECT_DIR$/BinaryFileAndSerialization/BinaryFileAndSerialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" filepath="$PROJECT_DIR$/CleanCodeAndRefactoring/CleanCodeAndRefactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSAStackQueue/DSAStackQueue.iml" filepath="$PROJECT_DIR$/DSAStackQueue/DSAStackQueue.iml" />
