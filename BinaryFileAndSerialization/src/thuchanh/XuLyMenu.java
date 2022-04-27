@@ -118,7 +118,7 @@ public class XuLyMenu {
         BufferedReader br = new BufferedReader(fr);
         String content = br.readLine();
         while ((content = br.readLine()) != null){
-            System.out.println(content);
+            System.out.println(content + "\n");
         }
     }
     public static void chucNangGhiVaoFile() throws IOException {
