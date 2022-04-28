@@ -12,16 +12,7 @@ public class XuLyMenu {
         do {
             Menu.hienThiMenuChinh();
             Scanner scanner = new Scanner(System.in);
-            do {
-                if (choose > 8) {
-                    System.out.println("Vui lòng nhập lựa chọn trong menu!");
-                }
-                try {
-                    choose = scanner.nextInt();
-                } catch (InputMismatchException e) {
-                    System.err.println("Nhập đúng lựa chọn đi bro!");
-                }
-            } while (choose < 1 || choose > 8);
+            choose = getChoose(choose, scanner);
             switch (choose) {
                 case 1:
                     quanLyDanhBa.hienThi();
@@ -44,16 +35,35 @@ public class XuLyMenu {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    break;
                 case 7:
                     try {
                         chucNangGhiVaoFile();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    break;
                 case 8:
                     System.exit(0);
             }
         } while (true);
+    }
+
+    private static int getChoose(int choose, Scanner scanner) {
+        do {
+            if (choose < 1 || choose > 8) {
+                Menu.hienThiMenuChinh();
+                System.out.println("Vui lòng nhập lựa chọn trong menu!");
+            }
+            try {
+                choose = scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.err.println("Nhập đúng lựa chọn đi bro!");
+                scanner.nextLine();
+                choose = -1;
+            }
+        } while (choose < 1 || choose > 8);
+        return choose;
     }
 
     public static void chucNangThem() {
@@ -78,22 +88,27 @@ public class XuLyMenu {
 
     public static void chucNangCapNhat() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập số điện thoại cần sửa");
-        String soDienThoaiSua = scanner.nextLine();
+        String soDienThoaiSua = "";
+        do {
+            if ((quanLyDanhBa.timKiem(soDienThoaiSua) == -1)) {
+                System.out.println("Vui lòng nhập đúng số cần sửa");
+            }
+            soDienThoaiSua = scanner.nextLine();
+        } while (quanLyDanhBa.timKiem(soDienThoaiSua) == -1);
         System.out.println("Nhập danh bạ cần cập nhật");
-        System.out.println("Nhập số điện thoại");
+        System.out.println("Nhập số điện thoại mới ");
         String soDienTHoai = scanner.nextLine();
-        System.out.println("Nhập nhóm");
+        System.out.println("Nhập nhóm mới");
         String nhom = scanner.nextLine();
-        System.out.println("Nhập họ và tên");
+        System.out.println("Nhập họ và tên mới");
         String hoTen = scanner.nextLine();
-        System.out.println("Nhập giới tính");
+        System.out.println("Nhập giới tính mới");
         String gioiTinh = scanner.nextLine();
-        System.out.println("Nhập địa chỉ");
+        System.out.println("Nhập địa chỉ mới");
         String diaChi = scanner.nextLine();
-        System.out.println("Nhập ngày sinh");
+        System.out.println("Nhập ngày sinh mới");
         String ngaySinh = scanner.nextLine();
-        System.out.println("Nhập email");
+        System.out.println("Nhập email mới");
         String email = scanner.nextLine();
         DanhBa danhBa = new DanhBa(soDienTHoai, nhom, hoTen, gioiTinh, diaChi, ngaySinh, email);
         quanLyDanhBa.sua(soDienThoaiSua, danhBa);
@@ -117,10 +132,11 @@ public class XuLyMenu {
         FileReader fr = new FileReader("contacts.csv");
         BufferedReader br = new BufferedReader(fr);
         String content = br.readLine();
-        while ((content = br.readLine()) != null){
+        while ((content = br.readLine()) != null) {
             System.out.println(content + "\n");
         }
     }
+
     public static void chucNangGhiVaoFile() throws IOException {
         FileWriter pw = new FileWriter("contacts.csv");
         BufferedWriter bw = new BufferedWriter(pw);

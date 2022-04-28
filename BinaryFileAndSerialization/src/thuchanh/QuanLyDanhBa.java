@@ -2,6 +2,7 @@ package thuchanh;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class QuanLyDanhBa {
     private final List<DanhBa> list = new ArrayList<>();
@@ -28,7 +29,7 @@ public class QuanLyDanhBa {
 
     public int timKiem(String soDienThoai) {
         for (int i = 0; i < list.size(); i++) {
-            if (soDienThoai == list.get(i).getSoDienThoai()) {
+            if (Objects.equals(soDienThoai, list.get(i).getSoDienThoai())) {
                 return i;
             }
         }
@@ -58,7 +59,7 @@ public class QuanLyDanhBa {
     }
 
     public String hienThi2() {
-        String str = "";
+        String str = "Số điện thoại,Nhóm,Họ Và Tên,Giới tinh , Địa chỉ,Ngày Sinh,Email\n";
         for (DanhBa db : list) {
             str += db.getSoDienThoai() + "," + db.getNhom() + "," + db.getHoVaTen() + "," + db.getGioiTinh() +
                     "," + db.getDiaChi() + "," + db.getNgaySinh() + "," + db.getEmail() + "\n";
