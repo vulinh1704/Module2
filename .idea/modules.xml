@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Modul2.iml" filepath="$PROJECT_DIR$/Modul2.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLyPhuongTien/QuanLyPhuongTien.iml" filepath="$PROJECT_DIR$/QuanLyPhuongTien/QuanLyPhuongTien.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuanLySinhVien/QuanLySinhVien.iml" filepath="$PROJECT_DIR$/QuanLySinhVien/QuanLySinhVien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringAndRegex/StringAndRegex.iml" filepath="$PROJECT_DIR$/StringAndRegex/StringAndRegex.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextFile/TextFile.iml" filepath="$PROJECT_DIR$/TextFile/TextFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threading/Threading.iml" filepath="$PROJECT_DIR$/Threading/Threading.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThuatToanSapXep/ThuatToanSapXep.iml" filepath="$PROJECT_DIR$/ThuatToanSapXep/ThuatToanSapXep.iml" />

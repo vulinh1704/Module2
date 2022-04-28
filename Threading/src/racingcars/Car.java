@@ -1,3 +1,5 @@
+package racingcars;
+
 import java.util.Random;
 
 public class Car implements Runnable{
@@ -36,15 +38,15 @@ public class Car implements Runnable{
                     }
                 }
                 log += "|";
-                System.out.println("Car" + this.name + ": " + log + " " + Math.min(DISTANCE, runDistance) + "KM");
+                System.out.println("racingcars.Car" + this.name + ": " + log + " " + Math.min(DISTANCE, runDistance) + "KM");
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                System.out.println("Car" + this.name + " broken...");
+                System.out.println("racingcars.Car" + this.name + " broken...");
                 break;
             }
         }
         long endTime = System.currentTimeMillis();
-        System.out.println("Car" + this.name + " Finish in " + (endTime - startTime) / 1000 + "s");
+        System.out.println("racingcars.Car" + this.name + " Finish in " + (endTime - startTime) / 1000 + "s");
     }
     public static int DISTANCE = 100;
 
